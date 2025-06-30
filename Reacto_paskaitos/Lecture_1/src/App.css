@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.pClass{
+  color: blue;
+  @apply text-amber-200;
+
+}

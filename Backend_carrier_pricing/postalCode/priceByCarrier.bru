@@ -1,0 +1,19 @@
+meta {
+  name: priceByCarrier
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3001/api/v1/priceByCarrier
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "pickup_postcode":   "SW1A1AA",
+    "delivery_postcode": "EC2A3LT",
+    "carrier_name":      "RoyalPackages"
+  }
+}

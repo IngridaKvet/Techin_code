@@ -1,0 +1,67 @@
+.subscribeCard__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.subscribeCard {
+  width: 90%;
+  max-width: 56.25rem;
+  height: auto;
+  background-color: #c2e6f4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+  box-sizing: content-box;
+}
+
+.subscribeCard__headline {
+  font-size: 1.5rem;
+}
+
+.subscribeCard__subheadline {
+  font-size: 1rem;
+}
+
+.subscribeCard__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subscribeCard__wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+#fname,
+#lname,
+#email {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: lightgray;
+}
+
+.subscribeCard__button {
+  background-color: #f37474;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .subscribeCard__wrapper {
+    flex-direction: column;
+  }
+}

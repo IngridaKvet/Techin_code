@@ -1,0 +1,18 @@
+meta {
+  name: basicService
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3001/api/v1/basicService
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "pickup_postcode":   "SW1A1AA",
+    "delivery_postcode": "EC2A3LT"
+  }
+}

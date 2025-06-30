@@ -1,0 +1,67 @@
+.cardWrapper {
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.employeeCard {
+  display: flex;
+  background-color: #f0f8ff;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgb(101, 129, 189);
+  gap: 2rem;
+}
+
+.logoImg {
+  width: 100px;
+  height: 100px;
+}
+
+.subtextWrapper {
+  display: flex;
+  gap: 2.5rem;
+  color: #808080;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.employeeCompany {
+  font-size: 1rem;
+  color: rgb(6, 163, 124);
+  font-weight: 800;
+}
+
+.employeePosition {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.headerWrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.newBadge {
+  background-color: #38cf9d;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.featuredBadge {
+  background-color: #000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

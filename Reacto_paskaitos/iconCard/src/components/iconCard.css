@@ -1,0 +1,29 @@
+.iconCard__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.iconCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iconCard__headline {
+  font-size: 2rem;
+}
+
+.iconCard__img {
+  max-width: 8rem;
+  height: fit-content;
+}
+
+.iconCard__wrapper {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}

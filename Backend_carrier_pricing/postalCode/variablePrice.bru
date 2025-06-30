@@ -1,0 +1,19 @@
+meta {
+  name: variablePrice
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:3001/api/v1/variablePrice
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "pickup_postcode":   "SW1A1AA",
+    "delivery_postcode": "EC2A3LT",
+    "vehicle":           "small_van"
+  }
+}
