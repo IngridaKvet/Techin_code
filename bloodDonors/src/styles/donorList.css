@@ -1,0 +1,9 @@
+.donorsList__wrapper{
+    width: 915px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

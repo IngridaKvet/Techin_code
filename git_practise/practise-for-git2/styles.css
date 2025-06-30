@@ -1,0 +1,141 @@
+/* Default */
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.main{
+    background-color: #252b42;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper{
+    margin-top: 6rem;
+    display: flex;
+    gap: 3rem;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-secondary{
+    padding: 2.1rem 4.5rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+
+.btn-primary{
+    border: none;
+    color: #fff;
+    background-color: #23a6f0;
+}
+
+.btn-secondary{
+    border: 1px solid #23a6f0;
+    color: #23a6f0;
+    background-color: transparent;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Typography */
+.main-headline,
+.main-description{
+    color: #fff;
+    text-align: center;
+}
+
+.main-headline{
+    font-size: 6.5rem;
+    max-width: 57.7rem;
+}
+
+.main-description{
+    font-size: 2.1rem;
+    max-width: 57.7rem;
+}
+
+.card-headline,
+.card-headline-2{
+    font-size: 1.8rem;
+}
+
+.card-headline{
+    color: #252b42;
+}
+
+.card-description{
+    color: #969696;
+}
+
+.card-headline-2,
+.card-description-2{
+    color: #fff;
+}
+
+.card-description,
+.card-description-2{
+    font-size: 1.4rem;
+}
+
+/* Cards */
+.card,
+.card-2{
+    padding: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    max-width: 35.7rem;
+}
+
+.card{
+    background-color: #fff;
+}
+
+.card-2{
+    background-color: #23a6f0;
+}
+
+.square-1,
+.square-2,
+.square-3{
+    width: 7.6rem;
+    height: 8.3rem;
+    border-radius: 1rem;
+}
+
+.square-1{
+    background-color: #ffdcd1;
+}
+
+.square-2{
+    background-color: #c8e1bf;
+}
+
+.square-3{
+    background-color: #fff;
+}
+
+.divider-1{
+    background-color: #e95858;
+    height: 2px;
+    width: 55px;
+}
+
+.divider-2{
+    background-color: #fff;
+    height: 2px;
+    width: 55px;
+}

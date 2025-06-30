@@ -1,0 +1,85 @@
+/* Default*/
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-inline-size: 100%;
+    display: block;
+}
+
+/* Fonts */
+.card__subheadline{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.card__headline{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.reviews-text,
+.card__subtext{
+    font-size: 1.5rem;
+}
+
+.card__description{
+    font-size: 1.6rem;
+    color: #706f6f;
+}
+
+/* Images */
+.card__img{
+    max-width: 30rem;
+}
+
+.star-img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Layout */
+.card{
+    border: 2px solid #d6d6d6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-wrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card__wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Button */
+.card__buyBtn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}

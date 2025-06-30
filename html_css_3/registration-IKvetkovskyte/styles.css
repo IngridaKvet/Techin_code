@@ -1,0 +1,125 @@
+html{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main-card-layout{
+    width: 578px;
+    margin: 50px auto;
+}
+
+header{
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+input, select, textarea{
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    padding: 5px;
+}
+
+label{
+    color: #808080;
+    font-size: 14px;
+}
+
+.form-section-container{
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.section-name-container{
+    min-width: 29%;
+}
+
+.input-label-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+p{
+    margin-top:5px;
+}
+
+.horizontal-col-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.vertical-col-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#gender-layout{
+    margin-right: 220px;
+}
+
+.name-input-width{
+    width: 100px;
+}
+
+.surname-input-width{
+    width: 170px;
+}
+
+.email-input-width{
+    width: 290px;
+}
+
+.area-input-width{
+    width: 70px;
+}
+
+.phone-input-width{
+    width: 150px;
+}
+
+.street-adress-input-width{
+    width: 388px;
+}
+
+.postal-input-width{
+    width: 150px;
+}
+
+.other-input{
+    width: 80px;
+}
+
+input[name="type-of-dance"] {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.minutes-input-width{
+    width: 80px;
+}
+
+.hours-input-width{
+    width: 80px;
+}
+
+#top-alignment{
+    align-items: flex-start;
+}
+
+input[type="submit"] {
+    margin-left: 230px;
+    background-color: #ece9e9;
+    color:#808080;
+    font-weight: 700;
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    border-radius: 5px;
+}

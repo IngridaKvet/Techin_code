@@ -1,0 +1,43 @@
+    1  git init
+    2  git status
+    3  git add index.html 
+    4  git status
+    5  git commit -m "Initial commit of Index.html"
+    6  git status
+    7  git add .
+    8  git commit -m "Add CSS file and link it to HTML"
+    9  git status
+   10  git add .
+   11  git commit -m "Add images"
+   12  git status
+   13  git add .
+   14  git commit -am "Added HTML structure for the product card"
+   15  git status
+   16  git log
+   17  git status
+   18  git add .
+   19  git commit -m "Add typography"
+   20  git status
+   21  git add ,
+   22  git commit -m "Add styling for images"
+   23  git add .
+   24  git commit -m "Add styling for images"
+   25  git status
+   26  git add .
+   27  git commit -m "Add card layout"
+   28  git status
+   29  add .
+   30  git add .
+   31  git commit -m "Style buy now button"
+   32  git status
+   33  git log --oneline
+   34  git log
+   35  git log --oneline
+   36  git checkout 082032e
+   37  git checkout main
+   38  git log --oneline
+   39  git status
+   40  git add .
+   41  git commit -m "Add .gitignore"
+   42  git status
+   43  history > history.txt

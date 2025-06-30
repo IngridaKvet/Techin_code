@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <a href="#"><li class="nav__link">About</li></a>
+                <a href="#projects-section"><li class="nav__link">Work</li></a>
+                <a href="#contacts-section"><li class="nav__link">Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section" id="hero-section">
+            <h1 class="hero__headline">Hey! I am Rand</h1>
+            <p class="hero__subtext">a web developer</p>
+        </section>
+        <section class="projects-section" id="projects-section">
+            <h2 class="projects__headline">These are some of my projects</h2>
+            <div class="projects-layout">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/tribute-page.png" alt="Tribute page">
+                        <figcaption class="project__figcaption">Tribute Page</figcaption>
+                    </figure>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/random-quote.png" alt="Random quote machine">
+                        <figcaption class="project__figcaption">Random Quote Machine</figcaption>
+                    </figure>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/js-calculator.png" alt="Javascript calculator">
+                        <figcaption class="project__figcaption">Javascript Calculator</figcaption>
+                    </figure>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/map-data.png" alt="Data mapping">
+                        <figcaption class="project__figcaption">Map Data Across the Globe</figcaption>
+                    </figure>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/wiki-viewer.png" alt="Wikipedia viewer">
+                        <figcaption class="project__figcaption">Wikipedia Viewer</figcaption>
+                    </figure>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">
+                    <figure class="project-container">
+                        <img class="project-container__img" src="./img/tic-tac-toe.png" alt="Tic tac toe game">
+                        <figcaption class="project__figcaption">Tic Tac Toe Game</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <button class="btn-show-all">
+                <span>Show all</span>
+                <span>></span>
+            </button>
+        </section>
+    </main>
+    <footer class="footer" id="contacts-section">
+        <h2 class="footer__headline">Let's work together...</h2>
+        <p class="footer__subtext">How do you like your coffee?</p>
+        <div class="footer-link-section">
+            <a class="footer-link-wrapper" href="https://www.facebook.com/freecodecamp" target="_blank">
+                <img class="footer-link__icon" src="./img/facebook.png" alt="Facebook icon">
+                <p class="footer-link__text">Facebook</p>
+            </a>
+            <a class="footer-link-wrapper" href="https://github.com/freecodecamp" target="_blank">
+                <img class="footer-link__icon" src="./img/github.png" alt="Github icon">
+                <p class="footer-link__text">Github</p>
+            </a>
+            <a class="footer-link-wrapper" href="https://x.com/" target="_blank">
+                <img class="footer-link__icon" src="./img/bird.png" alt="Twitter icon">
+                <p class="footer-link__text">Twitter</p>
+            </a>
+            <a class="footer-link-wrapper" href="mailto:someone@yoursite.com" target="_blank">
+                <img class="footer-link__icon" src="./img/email.png" alt="Email icon">
+                <p class="footer-link__text">Send a mail</p>
+            </a>
+            <a class="footer-link-wrapper" href="tel:5551234567" target="_blank">
+                <img class="footer-link__icon" src="./img/phone.png" alt="Phone icon">
+                <p class="footer-link__text">Call me</p>
+            </a>
+            <p class="footer-disclaimer">This is not a real portfolio page</p>
+        </div>
+    </footer>
+</body>
+
+</html>

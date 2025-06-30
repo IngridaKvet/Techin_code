@@ -1,0 +1,97 @@
+ 1999  git config --global --list
+ 2000  git status
+ 2001  cd repos
+ 2002  ls
+ 2003  cd git-practise/
+ 2004  ls
+ 2005  cd ,,
+ 2006  cd ..
+ 2007  ls
+ 2008  cd product-card
+ 2009  la
+ 2010  ls
+ 2011  git remote add origin git@github.com:IngridaKvet/practise-for-git.git
+ 2012  git branch -M main
+ 2013  git push -u origin main
+ 2014  git remote -v
+ 2015  cd ..
+ 2016  ls
+ 2017  cd git-practise/
+ 2018  ls
+ 2019  cd school/
+ 2020  ls
+ 2021  code .
+ 2022  git log
+ 2023  git remote add origin git@github.com:IngridaKvet/practise-for-git2.git
+ 2024  git branch -M main
+ 2025  git push -u origin main
+ 2026  git remote -v
+ 2027  cd ..
+ 2028  mkdir home
+ 2029  ls
+ 2030  cd home
+ 2031  ls
+ 2032  git clone git@github.com:IngridaKvet/practise-for-git2.git
+ 2033  ks
+ 2034  ls
+ 2035  ls practise-for-git2/
+ 2036  code .
+ 2037  ls
+ 2038  cd practise-for-git2/
+ 2039  git status
+ 2040  git add .
+ 2041  git commit -m "Added CSS for product card styling"
+ 2042  git push origin main
+ 2043  cd ..
+ 2044  ls
+ 2045  cd school/
+ 2046  ls
+ 2047  git pull origin main
+ 2048  ls
+ 2049  code .
+ 2050  git log
+ 2051  git status
+ 2052  git add . 
+ 2053  git commit -m "Add html structure"
+ 2054  ls
+ 2055  git status
+ 2056  git add .
+ 2057  git commit -m "Add typography"
+ 2058  git status
+ 2059  git add .
+ 2060  git commit -m "Add cards"
+ 2061  git status
+ 2062  git push
+ 2063  cd ..
+ 2064  ls
+ 2065  cd home/
+ 2066  git status
+ 2067  ls
+ 2068  cd practise-for-git2/
+ 2069  git status
+ 2070  git pull
+ 2071  code .
+ 2072  git status
+ 2073  git add .
+ 2074  git commit -m "Add layout"
+ 2075  git status
+ 2076  git add .
+ 2077  git commit -m "Add buttons"
+ 2078  git status
+ 2079  git push
+ 2080  cd ..
+ 2081  cd school/
+ 2082  ls
+ 2083  git status
+ 2084  code .
+ 2085  git pull
+ 2086  git status
+ 2087  cd ..
+ 2088  cd home/
+ 2089  ls
+ 2090  cd practise-for-git2/
+ 2091  google-chrome index.html 
+ 2092  cd
+ 2093  cd repos/git-practise/school/
+ 2094  code .
+ 2095  history > history.txt

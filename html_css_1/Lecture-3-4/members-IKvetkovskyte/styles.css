@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    background-color: #eaebec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+}
+
+body{
+    width: 748px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: #d3d3d3 1px solid;
+    box-shadow: 5px 5px 10px #d3d3d3;
+    padding: 36px 23px;
+}
+
+/* Header */ 
+header{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 9px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+.members-card{
+    font-size: 12px;
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-top: 1px solid #e2dfdf;
+    border-bottom: 1px solid #e2dfdf;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+th{
+    color: #bcbcbc;
+    text-align: left;
+    padding: 20px 12px;
+}
+
+td{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+tr:not(:first-child):hover{
+    background-color: #e1ecfd;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f5f8fb;
+}
+
+.member-name{
+    font-weight: 700;
+}
+
+figure, img{
+    width: 47px;
+    height: 47px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.name-col-layout{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+/* Tags */
+.card{
+    margin: 0;
+    margin-right: 5px;
+    padding: 10px;
+    font-weight: 700;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    display: inline;
+}
+
+.members-card, .offline-status-tag{
+    background-color: #f2f3f4;
+    
+}
+
+.active-status-tag{
+    background-color: #ebfdef;
+    color: #70c589;
+}
+
+.inactive-status-tag, .marketing-tag{
+    background-color: #fff4e2;
+    color: #ecc36a;
+}
+
+.offline-status-tag{
+    color: #b5b2b8;
+}
+
+.dev-tag{
+    background-color: #ebf2fd;
+    color: #92bde0;
+}
+
+.design-tag{
+    background-color: #f3eefa;
+    color: #ac9dce;
+}
+
+.QA-tag{
+    background-color: #fddce7;
+    color: #deaebd;
+}
+
+/* Pagination buttons*/
+ #current-page{
+    background-color: #efefef;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.page-number-btn{
+    margin: 0 20px 0 0;
+    padding: 14px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}

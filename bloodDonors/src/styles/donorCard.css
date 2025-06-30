@@ -1,0 +1,25 @@
+.donorCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px #e7e9eb solid;
+    border-radius: 28px;
+}
+
+.donorCard__wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.seeMore__btn {
+    height: 56px;
+    padding: 0 40px;
+    border-radius: 28px;
+    background-color: #d8db2f;
+    min-width: 153px;
+  }
+
+  .donorCard__bio{
+    padding-right: 20px;
+    color: #08c728;
+  }

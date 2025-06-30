@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post</title>
+    <style>
+        html {
+            background-color: #96EFF9;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        body {
+            width: 25%;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 8px;
+        }
+
+        header {
+            display: flex;
+        }
+
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        .profile-photo {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            margin: 21px 10px 15px 21px;
+        }
+
+        .post-photo {
+            width: 100%
+        }
+
+        h1,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 16px;
+        }
+
+        .button-container {
+            margin: 16px 0 10px 0;
+        }
+
+
+        .location {
+            font-size: 16px;
+        }
+
+        button {
+            border: none;
+            background-color: #fff;
+            padding: 8px;
+        }
+
+        button:hover {
+            border-radius: 10px;
+            background-color: aqua;
+        }
+
+        .icon {
+            width: 33px;
+        }
+
+        .bold-text {
+            font-weight: 800;
+        }
+
+        .post-likes {
+            margin-bottom: 23px;
+        }
+
+        .post-description {
+            margin-bottom: 20px;
+        }
+
+        .post-description,
+        .post-likes {
+            margin-left: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="/img/profile-photo.jpeg" alt="Profile" class="profile-photo">
+        </figure>
+        <div class="header-container">
+            <h1>Joseph Ducreux</h1>
+            <p class="location">Paris, France</p>
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img src="./img/post-photo.jpg" alt="Painting of a laughing man" class="post-photo">
+        </figure>
+        <div class="button-container">
+            <button>
+                <img src="./img/heart.png" alt="Heart icon" class="icon">
+            </button>
+            <button>
+                <img src="./img/chat.png" alt="Comment icon" class="icon">
+            </button>
+            <button>
+                <img src="./img/send.png" alt="Share icon" class="icon">
+            </button>
+        </div>
+        <p class="bold-text post-likes">15,137 likes</p>
+        <p class="post-description"><span class="bold-text">jd1735</span> gm friends! which coin are YOU stacking up
+            today?? post below and WAGMI!</p>
+    </main>
+</body>
+
+</html>

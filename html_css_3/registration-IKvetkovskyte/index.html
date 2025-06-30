@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-card-layout">
+        <header>
+            <h1>Dance Registration</h1>
+            <p>Fill the registration form below keenly to enter the dancing competition.</p>
+        </header>
+        <hr>
+        <form action="#" method="get">
+
+
+
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Name</h2>
+                </div>
+                <div class="horizontal-col-layout">
+
+                    <div class="input-label-layout name-input-width">
+                        <input type="text" id="fname" name="fname" pattern="[A-Za-z]*">
+                        <label for="fname">First Name</label>
+                    </div>
+
+                    <div class="input-label-layout surname-input-width">
+                        <input type="text" id="lname" name="lname" pattern="[A-Za-z]*">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+
+
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>E-mail</h2>
+                </div>
+                <div class="horizontal-col-layout">
+                    <div class="input-label-layout email-input-width">
+                        <input type="email" id="email" name="email" placeholder="ex.myname@example.com">
+                        <label for="email">example@example.com</label>
+                    </div>
+                </div>
+            </section>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Phone Number</h2>
+                </div>
+                <div class="horizontal-col-layout">
+                    <div class="input-label-layout area-input-width">
+                        <input type="text" id="area-code" name="area-code" pattern="^\+\d+$" placeholder="+000">
+                        <label for="area-code">Area Code</label>
+                    </div>
+                    <p>-</p>
+                    <div class="input-label-layout phone-input-width">
+                        <input type="tel" id="tel" name="tel" pattern="[0-9]{8}">
+                        <label for="tel">Phone Number</label>
+                    </div>
+                </div>
+            </section>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Gender</h2>
+                </div>
+                <div class="horizontal-col-layout">
+                    <input type="radio" id="male" name="gender" value="male" class="horizontal-col-layout">
+                    <label for="male" id="gender-layout">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" class="horizontal-col-layout">
+                    <label for="female">Female</label>
+                </div>
+            </section>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Adress</h2>
+                </div>
+                <div class="vertical-col-layout">
+                    <div class="input-label-layout street-adress-input-width">
+                        <input type="text" id="street-adress" name="street-adress">
+                        <label for="street-adress">Street Adress</label>
+                    </div>
+                    <div class="input-label-layout street-adress-input-width">
+                        <input type="text" id="street-adress-2" name="street-adress-2">
+                        <label for="street-adress-2">Street Adress Line 2</label>
+                    </div>
+                    <div class="horizontal-col-layout">
+                        <div class="input-label-layout">
+                            <input type="text" id="city" name="city" pattern="[A-Za-z]*">
+                            <label for="city">City</label>
+                        </div>
+                        <div class="input-label-layout">
+                            <input type="text" id="state" name="lname" pattern="[A-Za-z]*">
+                            <label for="state">State / Province</label>
+                        </div>
+                    </div>
+                    <div class="input-label-layout postal-input-width">
+                        <input type="text" id="postal-code" name="postal-code" pattern="[0-9]*">
+                        <label for="postal-code">Postal / Zip Code</label>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Type of Dance</h2>
+                </div>
+                <div>
+                    <input type="radio" id="salsa" name="type-of-dance" value="salsa"><label
+                        for="salsa">Salsa</label><br>
+                    <input type="radio" id="bachata" name="type-of-dance" value="bachata"><label
+                        for="bachata">Bachata</label><br>
+                    <input type="radio" id="tango" name="type-of-dance" value="tango"><label
+                        for="tango">Tango</label><br>
+                    <input type="radio" id="hip-hop" name="type-of-dance" value="hip-hop"><label
+                        for="hip-hop">Hip-Hop</label><br>
+                    <input type="radio" id="club" name="type-of-dance" value="club"><label for="club">Club</label><br>
+                    <input type="radio" id="other" name="type-of-dance" value="other"><input class="other-input"
+                        type="text" disabled placeholder="Other"><br>
+                </div>
+            </section>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Start Day & Time</h2>
+                </div>
+                <div class="horizontal-col-layout" id="top-alignment">
+                    <input type="date" id="date" name="date" value="2025-05-22">
+                    <div class="input-label-layout minutes-input-width">
+                        <select name="hours" id="hours">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5" selected="selected">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+
+                        </select>
+                        <label for="hours">Hour</label>
+                    </div>
+                    <div class="input-label-layout minutes-input-width">
+                        <select name="minutes" id="minutes">
+                            <option value="00">00</option>
+                            <option value="10" selected="selected">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select>
+                        <label for="minutes">Minutes</label>
+                    </div>
+                    <p>:</p>
+                    <select name="time-of-day" id="time-of-day">
+                        <option value="pm">PM</option>
+                        <option value="am">AM</option>
+                    </select>
+                </div>
+            </section>
+            <section class="form-section-container">
+                <div class="section-name-container">
+                    <h2>Comments</h2>
+                </div>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            </section>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

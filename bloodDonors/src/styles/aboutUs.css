@@ -1,0 +1,39 @@
+.aboutUs__wrapper {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0 20px 20px 20px;
+
+}
+
+.aboutUs__textSection {
+  width: 515px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutUs__headline {
+  font-size: 24px;
+  margin: 0;
+}
+
+.aboutUs__text {
+  font-size: 16px;
+}
+
+.aboutUs__btn {
+  height: 56px;
+  padding: 0 40px;
+  border-radius: 28px;
+  background-color: #d8db2f;
+}
+
+.aboutUs__imageSection {
+  width: 400px;
+  background-color: #133041;
+  border-radius: 0 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
